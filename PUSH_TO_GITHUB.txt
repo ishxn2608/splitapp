@@ -1,0 +1,90 @@
+========================================
+PUSH YOUR PROJECT TO GITHUB - QUICK GUIDE
+========================================
+
+✅ Git is initialized
+✅ All files are committed
+
+NOW FOLLOW THESE STEPS:
+========================================
+
+STEP 1: Create GitHub Repository
+---------------------------------
+Go to: https://github.com/new
+
+Repository Name: SplitApp
+Description: A MERN stack group expense splitting application - Splitwise clone
+Visibility: Public (or Private)
+
+⚠️ IMPORTANT: DO NOT check "Initialize with README" (we already have one)
+
+Click "Create repository"
+
+
+STEP 2: Connect Your Local Repo to GitHub
+------------------------------------------
+Copy the commands from GitHub (they will look like this):
+
+git remote add origin https://github.com/YOUR_USERNAME/SplitApp.git
+git branch -M main
+git push -u origin main
+
+Replace YOUR_USERNAME with your actual GitHub username
+
+
+STEP 3: Run These Commands in PowerShell
+-----------------------------------------
+cd C:\Users\ishan\Downloads\SplitApp-main\SplitApp-main
+
+git remote add origin https://github.com/YOUR_USERNAME/SplitApp.git
+git branch -M main
+git push -u origin main
+
+
+STEP 4: Enter GitHub Credentials
+---------------------------------
+When prompted, enter your:
+- GitHub username
+- Personal Access Token (NOT your password)
+
+To create a token:
+1. Go to: https://github.com/settings/tokens
+2. Click "Generate new token (classic)"
+3. Select scopes: repo (all)
+4. Copy the token and use it as password
+
+
+ALTERNATIVE: Use GitHub CLI (Easier)
+=====================================
+If you have GitHub CLI installed:
+
+gh auth login
+gh repo create SplitApp --public --source=. --remote=origin --push
+
+Done! ✅
+
+
+VERIFY YOUR UPLOAD
+==================
+Visit: https://github.com/YOUR_USERNAME/SplitApp
+
+You should see all your files!
+
+
+FUTURE UPDATES
+==============
+After making changes:
+
+git add .
+git commit -m "Description of your changes"
+git push
+
+
+NEED HELP?
+==========
+Read: GITHUB_SETUP.md (detailed guide in your project folder)
+
+
+========================================
+Your project is ready to be pushed! 🚀
+========================================
