@@ -7,6 +7,7 @@
     "test": "npx nodemon app.js",
     "start": "node app.js",
     "build": "cd client && npm install && npm run build",
+    "render-build": "npm install && cd client && npm install && npm run build",
     "heroku-postbuild": "cd client && npm install && npm run build",
     "dev": "concurrently \"npm test\" \"cd client && npm start\" ",
     "view-db": "node viewDatabase.js"
