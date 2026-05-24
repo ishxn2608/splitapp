@@ -6,7 +6,7 @@ export default function Copyright() {
 
   return (
     <Typography mt="-2" variant="body2" align="center" sx={{ color: 'text.secondary'}}>
-            &copy; Open Source &nbsp; 
+            &copy; SplitApp &nbsp; 
             <FavoriteIcon  color="error"  sx={{ fontSize: 18 ,mb:'-2px', ml:'-5px' }}/>
           </Typography>
   )

@@ -1,0 +1,96 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║              🚀 SPLITAPP - QUICK START GUIDE 🚀               ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+📋 WHAT YOU NEED TO DO:
+
+┌────────────────────────────────────────────────────────────────┐
+│  STEP 1: Set Up MongoDB Atlas (5 minutes)                     │
+├────────────────────────────────────────────────────────────────┤
+│  1. Go to: https://www.mongodb.com/cloud/atlas/register       │
+│  2. Create FREE account (no credit card needed)               │
+│  3. Create cluster (FREE M0 tier)                             │
+│  4. Create user: splitapp_user / SplitApp2026!                │
+│  5. Whitelist IP: 0.0.0.0/0 (allow from anywhere)             │
+│  6. Get connection string                                     │
+└────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────┐
+│  STEP 2: Run Setup (1 minute)                                 │
+├────────────────────────────────────────────────────────────────┤
+│  Double-click: SETUP.bat                                      │
+│                                                                │
+│  OR open PowerShell and run:                                  │
+│  .\COMPLETE_SETUP_GUIDE.ps1                                   │
+└────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────┐
+│  STEP 3: Start Server                                         │
+├────────────────────────────────────────────────────────────────┤
+│  npm start                                                     │
+│                                                                │
+│  Server runs on: http://localhost:3001                        │
+└────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────┐
+│  STEP 4: View Database                                        │
+├────────────────────────────────────────────────────────────────┤
+│  npm run view-db                                              │
+│                                                                │
+│  Opens: http://localhost:3002                                 │
+└────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════
+
+📁 IMPORTANT FILES:
+
+  ✅ SETUP.bat                    ← Double-click this!
+  ✅ COMPLETE_SETUP_GUIDE.ps1     ← Interactive setup
+  ✅ START_HERE.md                ← Read this first
+  ✅ SETUP_MONGODB_ATLAS.md       ← MongoDB guide
+  ✅ README_SETUP.md              ← Quick reference
+  ✅ test-mongodb-connection.js   ← Test connection
+  ✅ fix-client-install.ps1       ← Fix npm issues
+
+═══════════════════════════════════════════════════════════════
+
+🎯 QUICK COMMANDS:
+
+  node test-mongodb-connection.js    Test database
+  npm start                          Start server
+  npm run view-db                    View database
+  .\fix-client-install.ps1           Fix client
+
+═══════════════════════════════════════════════════════════════
+
+❓ NEED HELP?
+
+  1. Read: START_HERE.md
+  2. Read: SETUP_MONGODB_ATLAS.md
+  3. Run: SETUP.bat
+
+═══════════════════════════════════════════════════════════════
+
+✨ WHAT'S WORKING:
+
+  ✅ Backend Server (Node.js + Express)
+  ✅ MongoDB Atlas (Cloud Database)
+  ✅ Database Viewer (Web Interface)
+  ✅ API Endpoints (All routes)
+  ✅ MongoDB Compass Support
+  
+  ⏳ React Client (npm install may take time)
+
+═══════════════════════════════════════════════════════════════
+
+🚀 READY TO START?
+
+  👉 Double-click: SETUP.bat
+  
+  OR
+  
+  👉 Open PowerShell and run: .\COMPLETE_SETUP_GUIDE.ps1
+
+═══════════════════════════════════════════════════════════════

@@ -1,0 +1,83 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║                    🚀 QUICK START - DO THIS NOW! 🚀            ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+Your MongoDB Atlas is configured! Just 3 commands to run:
+
+┌────────────────────────────────────────────────────────────────┐
+│  COMMAND 1: Update Password                                   │
+├────────────────────────────────────────────────────────────────┤
+│                                                                │
+│  .\update-password.ps1                                        │
+│                                                                │
+│  This will ask for your MongoDB password and update .env      │
+└────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────┐
+│  COMMAND 2: Start Server                                      │
+├────────────────────────────────────────────────────────────────┤
+│                                                                │
+│  npm start                                                     │
+│                                                                │
+│  Server runs on: http://localhost:3001                        │
+└────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────┐
+│  COMMAND 3: View Database                                     │
+├────────────────────────────────────────────────────────────────┤
+│                                                                │
+│  npm run view-db                                              │
+│                                                                │
+│  Opens: http://localhost:3002                                 │
+└────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════
+
+📝 YOUR CONNECTION STRING:
+
+mongodb+srv://splitapp_user:<db_password>@scanxqr.i0edxrb.mongodb.net/splitapp
+
+⚠️  Replace <db_password> with your actual password!
+
+═══════════════════════════════════════════════════════════════
+
+❓ DON'T KNOW YOUR PASSWORD?
+
+It's the password you set when creating the database user in 
+MongoDB Atlas.
+
+To reset it:
+1. Go to MongoDB Atlas Dashboard
+2. Click "Database Access"
+3. Find user "splitapp_user"
+4. Click "Edit" → "Edit Password"
+5. Set new password
+6. Run: .\update-password.ps1
+
+═══════════════════════════════════════════════════════════════
+
+✅ WHAT YOU'LL GET:
+
+✓ Backend API running on port 3001
+✓ Database viewer on port 3002
+✓ MongoDB Atlas cloud database
+✓ All CRUD operations working
+✓ Beautiful web interface to view data
+
+═══════════════════════════════════════════════════════════════
+
+🎯 COPY & PASTE THESE COMMANDS:
+
+.\update-password.ps1
+npm start
+npm run view-db
+
+═══════════════════════════════════════════════════════════════
+
+📖 NEED MORE HELP?
+
+Read: FINAL_STEPS.md
+
+═══════════════════════════════════════════════════════════════
